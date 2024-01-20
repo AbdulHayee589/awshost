@@ -1,0 +1,82 @@
+#Step1Ki3 {
+  // position: absolute;
+  // left: 50%;
+  // top: 50%;
+  // transform: translateX(-50%, -50%);
+  // width: 60%;
+  .stepWrapper {
+    text-align: left;
+  }
+  .backButton {
+    cursor: pointer;
+  }
+  .section_title {
+    h3 {
+      color: #101828; //mostlyused
+      font-size: 32px;
+    }
+  }
+  .interest_wrapper {
+    margin-top: 50px;
+    .interest_container {
+      display: flex;
+      justify-content: start;
+      align-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .interest_Item {
+      display: flex;
+      padding: 12px 20px;
+      align-items: center;
+      gap: 16px;
+      border-radius: 30px;
+border: 1px solid #EFF0F1;
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.90) 0%, rgba(255, 255, 255, 0.90) 100%), rgba(255, 255, 255, 0.20);
+      cursor: pointer;
+      &.active {
+        color: #FFF;
+        border-radius: 30px;
+border: 1px solid var(--Primary-200, #FECDD6);
+background: var(--Primary-400, #FD6F8E);
+
+/* Trans Card: Icons */
+box-shadow: 0px 2.191px 1.753px 0px rgba(108, 73, 172, 0.02), 0px 5.265px 4.212px 0px rgba(108, 73, 172, 0.03), 0px 9.913px 7.93px 0px rgba(108, 73, 172, 0.04), 0px 17.683px 14.146px 0px rgba(108, 73, 172, 0.04);
+        &:hover {
+          background: var(--primary-300, #fea3b4);
+          box-shadow: none;
+        }
+      }
+      &:hover {
+        background: var(--primary-50, #fff1f3);
+        border: 1px solid var(--primary-300, #fea3b4);
+        box-shadow: 0px 2.191px 1.753px 0px rgba(108, 73, 172, 0.02),
+          0px 5.265px 4.212px 0px rgba(108, 73, 172, 0.03),
+          0px 9.913px 7.93px 0px rgba(108, 73, 172, 0.04),
+          0px 17.683px 14.146px 0px rgba(108, 73, 172, 0.04),
+          0px 33.074px 26.459px 0px rgba(108, 73, 172, 0.05),
+          0px 79.167px 63.333px 0px rgba(108, 73, 172, 0.07);
+      }
+      .Interest_text {
+        color: var(--Gray-800, #1D2939);
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+      }
+      p {
+        text-align: center;
+        margin: auto auto;
+      }
+      .interest_icon {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    // width: 100%;
+  }
+}

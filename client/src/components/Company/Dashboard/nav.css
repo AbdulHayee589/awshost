@@ -1,0 +1,26 @@
+.headerbutton{
+    border-radius: 5px;
+background: rgba(255, 255, 255, 0.90);
+width: 45px;
+height: 45px;
+display: flex;
+/* Trans Card v2 */
+box-shadow: 0px 2.191px 1.753px 0px rgba(108, 73, 172, 0.02), 0px 5.265px 4.212px 0px rgba(108, 73, 172, 0.03), 0px 9.913px 7.93px 0px rgba(108, 73, 172, 0.04), 0px 17.683px 14.146px 0px rgba(108, 73, 172, 0.04), 0px 33.074px 26.459px 0px rgba(108, 73, 172, 0.05), 0px 79.167px 63.333px 0px rgba(108, 73, 172, 0.07);
+}
+.HeaderText{
+    color: var(--Gray-950, #0C111D);
+
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 52px */
+}
+.headersmalltext{
+    color: var(--Gray-800, #1D2939);
+/* Caption/Caption Text */
+font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 145%; /* 20.3px */
+}

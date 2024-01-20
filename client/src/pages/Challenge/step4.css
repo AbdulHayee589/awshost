@@ -1,0 +1,17 @@
+.timecommitment{
+    color: var(--Gray-900, #101828);
+    /* Sub Header 2/semi bold */
+    font-family: Public Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%; /* 29px */
+}
+.expectedduration{
+    color: var(--Gray-900, #101828);
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}

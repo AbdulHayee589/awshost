@@ -1,0 +1,22 @@
+.banner_wrapperad {
+  background-image: url(../../assets/images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  margin-top: 40px;
+  margin-left: 40px;
+  max-width: 96%;
+  
+  border-radius: 20px;
+}
+
+/* Optional: You can add media queries to adjust styles for different screen sizes */
+@media (max-width: 768px) {
+  .banner_wrapperad {
+      margin-left: 10px; /* Adjust the margin for smaller screens */
+      max-width: 100%; /* Take full width on smaller screens */
+      background-size: cover;
+      margin-top: 0px;
+  margin-left: 0px;
+  }
+}

@@ -1,0 +1,74 @@
+
+.thumbnailcreate{
+    color: var(--Gray-950, #0C111D);
+
+    /* Body Regular/Semi Bold */
+    font-family: Public Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 25.6px */
+}
+.thumbnailcreatetext{
+    color: var(--Gray-800, #1D2939);
+
+/* Caption/Caption Text */
+font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 145%; /* 20.3px */
+}
+.addthumbnail{
+    color: var(--Gray-950, #0C111D);
+text-align: center;
+font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 145%; /* 20.3px */
+}
+.uploadbuttoncreate{
+    color: #FFF;
+    display: flex;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 6px;
+background: var(--Primary-600, #E31B54);
+}
+.challengeDescription{
+    color: var(--Gray-700, var(--Gray-700, #344054));
+
+/* Sub Header 2/semi bold */
+font-family: Public Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 145%; /* 29px */
+}
+.textareacreate{
+    display: flex;
+width: 1022px;
+height: 464px;
+padding: 15px 16px;
+justify-content: flex-end;
+align-items: flex-end;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid #D9D9D9;
+background: #FFF;
+}
+.createbackbutton{
+    display: inline-flex;
+padding: 10px 24px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 6px;
+color: #E31B54;
+border: 2px solid var(--Primary-600, #E31B54);
+background-color: transparent;
+}

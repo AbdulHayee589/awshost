@@ -1,0 +1,13 @@
+.testcard{
+
+   
+    background: rgba(255, 255, 255, 0.50);
+    border-top: 0ch;
+    border-bottom: 0ch;
+    border-right: 0ch;
+
+    border-radius: 6px;
+border-left: 2px solid #FFF;
+    /* Transp Card v2. */
+    box-shadow: 0px 2.191px 1.753px 0px rgba(108, 73, 172, 0.02), 0px 5.265px 4.212px 0px rgba(108, 73, 172, 0.03), 0px 9.913px 7.93px 0px rgba(108, 73, 172, 0.04), 0px 17.683px 14.146px 0px rgba(108, 73, 172, 0.04), 0px 33.074px 26.459px 0px rgba(108, 73, 172, 0.05), 0px 79.167px 63.333px 0px rgba(108, 73, 172, 0.07);
+}

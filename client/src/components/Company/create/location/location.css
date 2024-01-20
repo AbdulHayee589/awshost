@@ -1,0 +1,53 @@
+.country-icon {
+    width: 20px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 5px; /* Optional spacing between icon and text */
+  }
+  .select-without-border {
+    border: none;
+    outline: none;
+  }
+  .tagscard{
+    display: flex;
+    padding: 4px 6px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 30px;
+border: 1px solid #EFF0F1;
+background: var(--Primary-25, #ffffff);
+  }
+  .selectedcard {
+    border-radius: 30px;
+    border: 1px solid #eff0f1;
+    background: linear-gradient(0deg, var(--Primary-300, #fea3b4) 0%, var(--Primary-300, #fea3b4) 100%),
+      rgba(255, 255, 255, 0.20);
+      
+  }
+  .countrylist{
+    margin-top: 10px;
+    padding: 10px 14px;
+    align-items: center;
+    gap: 8px;
+    font-family: Public Sans;
+    font-size: 16px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-300, #D0D5DD);
+    background: var(--Base-White, #FFF);
+    
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  }
+  .scrollbaredit::-webkit-scrollbar {
+    width: 5px;
+   
+     /* Set the width of the scrollbar */
+  }
+  
+  .scrollbaredit::-webkit-scrollbar-thumb {
+    background-color: #e31b54; /* Set the color of the scrollbar thumb */
+  }
+  
+  .scrollbaredit::-webkit-scrollbar-track {
+    background-color: #fff; /* Set the color of the scrollbar track */
+  }

@@ -1,0 +1,94 @@
+
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-main {
+    background: white;
+   
+  
+    border-radius: 5px;
+  }
+  
+  .display-block {
+    display: flex;
+  }
+  
+  .display-none {
+    display: none;
+  }
+  .bg2 {
+    background-image: url(../../assets/images/bg.png);
+    height: 100vh;
+    width: 100vw;
+  }
+  .mainheading{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  .options{
+    color: var(--gray-500-p, var(--Gray-500, #667085));
+font-family: Public Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 120% */
+  }
+  .backbuttonstudent{
+    color: var(--Gray-900, #101828);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+  .step2Options{
+    color: var(--Gray-500, var(--Gray-500, #667085));
+font-family: Public Sans;
+font-size: 23.771px;
+font-style: normal;
+font-weight: 400;
+line-height: 35.657px; /* 150% */
+  }
+  .selectlanguage{
+    color: var(--Gray-700, var(--Gray-700, #344054));
+
+/* Text sm/Semibold */
+font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 142.857% */
+  }
+  .belowSelectLanguage{
+    color: var(--Gray-600, #475467);
+
+/* Text sm/Regular */
+font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+  }
+  .languagestext{
+    color: var(--gray-500-p, var(--Gray-500, #667085));
+font-family: Public Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+  }

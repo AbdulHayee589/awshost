@@ -1,0 +1,10 @@
+.footer {
+    position: relative;
+    bottom: 1rem; /* Adjust the value as needed */
+    
+}
+.buttons-footer{
+    font-size: 1rem;
+    font-family: Public Sans;
+    color: #98A2B3;
+}

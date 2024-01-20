@@ -1,0 +1,155 @@
+.main-container {
+  background-color: white;
+  scroll-snap-align: end;
+  // padding-top: 2%;
+}
+
+.hor-scroll {
+  position: relative;
+  height: 180vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: clip;
+}
+
+.hor-scroll-con {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  overflow: hidden;
+  padding: 4%;
+}
+.scroll-heading {
+  width: auto;
+  height: auto;
+  padding-left: 1%;
+  font-size: x-large;
+  z-index: 99;
+}
+
+.motion-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  gap: 3rem;
+  // margin-left: 13%;
+}
+
+
+.image-div {
+  width: 30vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+.image-div img {
+  width: 100%;
+  height: 100%;
+  // box-shadow: 30px;
+  box-shadow: 0 0 10px rgb(213, 208, 237);
+}
+
+.image-div1 {
+  width: 100%;
+  height: 40%;
+  object-fit: inherit;
+  border-radius: 10px;
+}
+.image-div2 {
+  width: 100%;
+  height: 40%;
+  object-fit: inherit;
+  border-radius: 10px;
+}
+
+.scroll-img {
+  width: 30vw;
+  height: 688.542px;
+  
+  object-fit: fill;
+  border-radius: 10px;
+  background: #FFF;
+  
+  /* Trans Card v2 */
+  box-shadow: 0px 2.191px 1.753px 0px rgba(108, 73, 172, 0.02), 0px 5.265px 4.212px 0px rgba(108, 73, 172, 0.03), 0px 9.913px 7.93px 0px rgba(108, 73, 172, 0.04), 0px 17.683px 14.146px 0px rgba(108, 73, 172, 0.04), 0px 33.074px 26.459px 0px rgba(108, 73, 172, 0.05), 0px 79.167px 63.333px 0px rgba(108, 73, 172, 0.07);
+}
+
+.extra-comp {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2headings{
+  color: var(--Gray-900, #101828);
+
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; 
+}
+.section2text{
+  color: var(--Gray-950, #0C111D);
+font-family: Public Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 145%; /* 26.1px */
+}
+.secondbackground {
+  background-image: url(../../../public/rs2.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 30vw;
+  height: 688.542px;
+  border-radius: 10px;
+  
+  
+  
+  box-shadow: 0px 2.191px 1.753px 0px rgba(108, 73, 172, 0.02), 0px 5.265px 4.212px 0px rgba(108, 73, 172, 0.03), 0px 9.913px 7.93px 0px rgba(108, 73, 172, 0.04), 0px 17.683px 14.146px 0px rgba(108, 73, 172, 0.04), 0px 33.074px 26.459px 0px rgba(108, 73, 172, 0.05), 0px 79.167px 63.333px 0px rgba(108, 73, 172, 0.07);
+ 
+ 
+}
+.thirdbackground{
+  background-color: #F0F5FE;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 688.542px;
+  
+  border-radius: 10px;
+  
+  
+  
+  box-shadow: 0px 2.191px 1.753px 0px rgba(108, 73, 172, 0.02), 0px 5.265px 4.212px 0px rgba(108, 73, 172, 0.03), 0px 9.913px 7.93px 0px rgba(108, 73, 172, 0.04), 0px 17.683px 14.146px 0px rgba(108, 73, 172, 0.04), 0px 33.074px 26.459px 0px rgba(108, 73, 172, 0.05), 0px 79.167px 63.333px 0px rgba(108, 73, 172, 0.07);
+ 
+}
+.secondbackground{
+  display:block;
+
+}
+.secondSectionHeading{
+  color: var(--Base-White, #FFF);
+
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 28px */
+}
+.themetext{
+  color: var(--Primary-600, #E31B54);
+/* text button */
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 145%; /* 23.2px */
+}

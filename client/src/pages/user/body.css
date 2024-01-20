@@ -1,0 +1,18 @@
+.profilephoto{
+
+    transform: rotate(-0.219896deg);
+    filter: drop-shadow(2.94359px 2.82954px 1.17744px rgba(0, 0, 0, 0.07))
+      drop-shadow(7.07386px 5.32778px 2.82954px rgba(0, 0, 0, 0.035))
+      drop-shadow(13.3194px 9.50385px 5.32778px rgba(0, 0, 0, 0.0282725))
+      drop-shadow(23.7596px 17.7759px 9.50385px rgba(0, 0, 0, 0.0196802))
+      drop-shadow(44.4398px 42.5489px 17.7759px rgba(0, 0, 0, 0.01));
+}
+.profileName{
+    color: var(--Gray-900, #101828);
+/* Header/Header 2 */
+
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 135%; 
+}

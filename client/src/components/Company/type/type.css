@@ -1,0 +1,10 @@
+.textchecker{
+    color: var(--Gray-950, #0C111D);
+
+/* Body Regular/Semi Bold */
+font-family: "Public Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 25.6px */
+}

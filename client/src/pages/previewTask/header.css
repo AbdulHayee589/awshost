@@ -1,0 +1,57 @@
+.headertitle{
+    color: var(--Gray-900, #101828);
+
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 135%; /* 37.8px */
+}
+.rate{
+    color: var(--Gray-900, #101828);
+font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 114.286% */
+letter-spacing: 0.4px;
+}
+.nextrate{
+    color: var(--Night-Blue, #383874);
+text-align: right;
+font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.44px;
+}
+.belowtitletask{
+    color: var(--Gray-900, #101828);
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 135%; /* 21.6px */
+}
+.steps{
+    color: var(--Black, #05050F);
+text-align: center;
+font-family: Public Sans;
+font-size: 11.443px;
+font-style: normal;
+font-weight: 500;
+line-height: 16.348px; /* 142.857% */
+letter-spacing: 0.36px;
+}
+.header{
+ 
+
+
+
+
+background: #FFF;
+
+/* Trans Card: Icons */
+position: relative;
+box-shadow: 0px 2.191px 1.753px 0px rgba(108, 73, 172, 0.02), 0px 5.265px 4.212px 0px rgba(108, 73, 172, 0.03), 0px 9.913px 7.93px 0px rgba(108, 73, 172, 0.04), 0px 17.683px 14.146px 0px rgba(108, 73, 172, 0.04);
+}

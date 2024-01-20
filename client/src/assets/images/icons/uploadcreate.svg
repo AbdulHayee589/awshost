@@ -1,0 +1,63 @@
+<svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="20" height="24" fill="#C69FAB"/>
+<g id="1. Challenge - Basic Information" clip-path="url(#clip0_3910_17921)">
+<rect width="1920" height="1507" transform="translate(-1032 -431)" fill="#F0F5FE"/>
+<g id="Frame 2147223408">
+<g id="Frame 2147223406">
+<g clip-path="url(#clip1_3910_17921)">
+<rect x="-335" y="-36" width="690" height="244" rx="8" fill="white"/>
+<g id="Group 1261157572">
+<circle id="Line" cx="10.0003" cy="91.0013" r="92.8333" stroke="#EAECF0" stroke-opacity="0.25"/>
+<circle id="Line_2" cx="10" cy="90.9981" r="119.5" stroke="#EAECF0" stroke-opacity="0.25"/>
+<circle id="Line_3" cx="10" cy="90.9981" r="119.5" stroke="#EAECF0" stroke-opacity="0.25"/>
+<circle id="Line_4" cx="9.99969" cy="91.0026" r="146.167" stroke="#EAECF0" stroke-opacity="0.25"/>
+<circle id="Line_5" cx="10.0003" cy="90.9974" r="172.833" stroke="#EAECF0" stroke-opacity="0.25"/>
+<circle id="Line_6" cx="10" cy="91" r="199.5" stroke="#EAECF0" stroke-opacity="0.25"/>
+</g>
+<g id="Empty state">
+<g id="Content">
+<g id="Icon wrap">
+<rect x="-14" y="-12" width="48" height="48" rx="24" fill="#FFF5F6"/>
+<g id="File type icon" filter="url(#filter0_dd_3910_17921)">
+<g id="Page">
+<path id="Page background" d="M0.399902 4C0.399902 1.79086 2.19076 0 4.3999 0H12.3999L19.5999 7.2V20C19.5999 22.2091 17.809 24 15.5999 24H4.3999C2.19076 24 0.399902 22.2091 0.399902 20V4Z" fill="#E31B54"/>
+<path id="Earmark" opacity="0.3" d="M12.3999 0L19.5999 7.2H16.3999C14.1908 7.2 12.3999 5.40914 12.3999 3.2V0Z" fill="white"/>
+</g>
+<g id="Icon wrap_2" clip-path="url(#clip2_3910_17921)">
+<path id="Icon" d="M10.4 12.3998L9.95378 11.5074C9.82536 11.2505 9.76115 11.1221 9.66535 11.0283C9.58063 10.9453 9.47853 10.8822 9.36643 10.8435C9.23967 10.7998 9.09608 10.7998 8.80892 10.7998H7.28C6.83196 10.7998 6.60794 10.7998 6.43681 10.887C6.28628 10.9637 6.16389 11.0861 6.08719 11.2366C6 11.4077 6 11.6318 6 12.0798V12.3998M6 12.3998H12.08C12.7521 12.3998 13.0881 12.3998 13.3448 12.5306C13.5706 12.6456 13.7542 12.8292 13.8692 13.055C14 13.3117 14 13.6477 14 14.3198V16.0798C14 16.7519 14 17.0879 13.8692 17.3446C13.7542 17.5704 13.5706 17.754 13.3448 17.869C13.0881 17.9998 12.7521 17.9998 12.08 17.9998H7.92C7.24794 17.9998 6.91191 17.9998 6.65521 17.869C6.42942 17.754 6.24584 17.5704 6.13079 17.3446C6 17.0879 6 16.7519 6 16.0798V12.3998Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<rect x="-334.5" y="-35.5" width="689" height="243" rx="7.5" stroke="#D0D5DD"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_dd_3910_17921" x="-5" y="-2" width="30" height="30" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.06 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3910_17921"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_3910_17921" result="effect2_dropShadow_3910_17921"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_3910_17921" result="shape"/>
+</filter>
+<clipPath id="clip0_3910_17921">
+<rect width="1920" height="1507" fill="white" transform="translate(-1032 -431)"/>
+</clipPath>
+<clipPath id="clip1_3910_17921">
+<rect x="-335" y="-36" width="690" height="244" rx="8" fill="white"/>
+</clipPath>
+<clipPath id="clip2_3910_17921">
+<rect width="9.6" height="9.6" fill="white" transform="translate(5.2002 9.59961)"/>
+</clipPath>
+</defs>
+</svg>

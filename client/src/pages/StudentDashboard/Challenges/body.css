@@ -1,0 +1,80 @@
+.wheredoyou{
+    color: var(--171721-primary, #171721);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Public Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px; /* 135% */
+}
+.fastTrack{
+
+    color: #000;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 135%; /* 32.4px */
+}
+.fastTracka{
+    filter: drop-shadow(0px 2.191px 1.753px rgba(108, 73, 172, 0.02)) drop-shadow(0px 5.265px 4.212px rgba(108, 73, 172, 0.03)) drop-shadow(0px 9.913px 7.93px rgba(108, 73, 172, 0.04)) drop-shadow(0px 17.683px 14.146px rgba(108, 73, 172, 0.04)) drop-shadow(0px 33.074px 26.459px rgba(108, 73, 172, 0.05)) drop-shadow(0px 79.167px 63.333px rgba(108, 73, 172, 0.07));
+
+}
+.belowfast{
+    color: var(--Gray-600, #475467);
+
+/* Body Regular/Regular */
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+}
+.nextone{
+    color: var(--Secondary-700, #3538CD);
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+}
+.seeall{
+    color: var(--Primary-600, #E31B54);
+
+/* text button */
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 145%; /* 23.2px */
+}
+.main-card-container {
+    position: relative;
+   
+    height: 373px; /* Initial height */
+    margin-right: 10px; /* Adjust the margin as needed */
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+  }
+  
+  .main-card-container:hover {
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+    z-index: 1;
+  }
+  
+  /* Add a wrapper to prevent the cards from stacking vertically */
+  .card-wrapper {
+    display: flex;
+  }
+  
+  /* Optional: Adjust the styling for better layout */
+  .grey-card-container {
+    border: 1px solid #ccc;
+   
+  }
+  .descriptiontask{
+    color: var(--Gray-600, #475467);
+font-family: Public Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+  }

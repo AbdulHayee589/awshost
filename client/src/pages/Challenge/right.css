@@ -1,0 +1,49 @@
+.nextstepsright{
+    color: var(--Gray-400, var(--Gray-400, #98A2B3));
+font-family: Public Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 133.333% */
+letter-spacing: 0.507px;
+text-transform: uppercase;
+}
+.iconshadow{
+    border-radius: 10px;
+background: var(--Base-White, #FFF);
+
+/* Trans Card: Icons */
+box-shadow: 0px 2.191px 1.753px 0px rgba(108, 73, 172, 0.02), 0px 5.265px 4.212px 0px rgba(108, 73, 172, 0.03), 0px 9.913px 7.93px 0px rgba(108, 73, 172, 0.04), 0px 17.683px 14.146px 0px rgba(108, 73, 172, 0.04);
+}
+.rightheadingtext
+{
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */}
+    .righttext{
+    
+color: var(--Gray-600, #475467);
+font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 145%; /* 20.3px */
+    }
+    .tipstext{
+        color: var(--Gray-700, var(--Gray-700, #344054));
+font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 142.857% */
+    }
+    .tipsundertext{
+        color: var(--Gray-600, #475467);
+font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 145%; /* 20.3px */
+    }

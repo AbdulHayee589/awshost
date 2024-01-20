@@ -1,0 +1,39 @@
+.headerbackground {
+    background: url(../../../assets/images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Optionally, you can set background-position to control the placement of the image */
+    /* background-position: center center; */
+}
+.heading{
+    color: var(--Snow, #FFF);
+
+/* Header/Header 1 */
+
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 54.6px */
+}
+.belowheading{
+
+    color: var(--Gray-800, #1D2939);
+
+    /* Body Large/Semi Bold */
+    font-family: "Public Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+}
+.dashboard{
+    color: var(--Gray-900, #101828);
+font-family: Public Sans;
+font-size: 16.378px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 26.205px */
+}
+
+  
+  

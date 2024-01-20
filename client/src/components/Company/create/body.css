@@ -1,0 +1,191 @@
+.formtext{
+    align-self: stretch;
+    color: var(--Gray-700, var(--Gray-700, #344054));
+/* Body Regular/Semi Bold */
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 25.6px */
+}
+
+    
+  
+.forminput{
+    display: flex;
+padding: 10px 14px;
+align-items: center;
+gap: 8px;
+font-family: Public Sans;
+font-size: 16px;
+align-self: stretch;
+border-radius: 8px;
+border: 1px solid var(--Gray-300, #D0D5DD);
+background: var(--Base-White, #FFF);
+
+/* Shadow/xs */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.options{
+    font-family: Public Sans;
+font-size: 16px;
+}
+.drop-area {
+    display: flex;
+
+padding: 16px 24px;
+flex-direction: column;
+align-items: center;
+gap: 4px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+border: 1px solid var(--Gray-200, #EAECF0);
+background: var(--Base-White, #FFF);
+  }
+  
+  .drop-area img {
+    margin-top: 10px;
+  }
+
+  .tag-container {
+    gap: 10px;
+  }
+  
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tags {
+    display: flex;
+    
+    
+    
+    padding: 9px 8px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 30px;
+    border: 1px solid #EFF0F1;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%), rgba(255, 255, 255, 0.20);
+    cursor: pointer;
+  }
+  .selected {
+    border-radius: 30px;
+    border: 1px solid #eff0f1;
+    background: linear-gradient(0deg, var(--Primary-300, #fea3b4) 0%, var(--Primary-300, #fea3b4) 100%),
+      rgba(255, 255, 255, 0.20);
+      
+  }
+  .tags img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+  }
+  .itemstexts{
+    color: var(--gray-500-p, var(--Gray-500, #667085));
+font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+  }
+  .checkbox{
+    width: 18px;
+    height: 18px;
+    
+  }
+
+  .backbutton{
+    display: inline-flex;
+padding: 10px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 6px;
+border: 1px solid var(--Gray-300, #D0D5DD);
+background: #FFF;color: var(--Gray-600, #475467);
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+  }
+  .continuebutton{
+    display: flex;
+padding: 10px 24px;
+justify-content: center;
+align-items: center;
+gap: 12px;border-radius: 6px;
+border: 1px solid var(--Gray-300, #D0D5DD);
+background: var(--Primary-600, #E31B54);
+color: var(--Snow, #FFF);
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+  }
+  .companyCardtoDisplay{
+    width: 60%;
+height: fit-content;
+flex-shrink: 0;
+border-radius: 6px;
+background: rgba(255, 255, 255, 0.65);
+
+/* Transp Card v2. */
+box-shadow: 0px 2.191px 1.753px 0px rgba(108, 73, 172, 0.02), 0px 5.265px 4.212px 0px rgba(108, 73, 172, 0.03), 0px 9.913px 7.93px 0px rgba(108, 73, 172, 0.04), 0px 17.683px 14.146px 0px rgba(108, 73, 172, 0.04), 0px 33.074px 26.459px 0px rgba(108, 73, 172, 0.05), 0px 79.167px 63.333px 0px rgba(108, 73, 172, 0.07);
+  }
+  .custom-image {
+    position: relative;
+    
+    width: 126px;
+height: 126px;
+background-color: #FFF;
+display: flex;
+justify-content: center;
+align-items: center;
+    border-radius: 5px;
+    border-radius: 5px;
+    transform: rotate(-0.219896deg);
+    filter: drop-shadow(2.94359px 2.82954px 1.17744px rgba(0, 0, 0, 0.07))
+      drop-shadow(7.07386px 5.32778px 2.82954px rgba(0, 0, 0, 0.035))
+      drop-shadow(13.3194px 9.50385px 5.32778px rgba(0, 0, 0, 0.0282725))
+      drop-shadow(23.7596px 17.7759px 9.50385px rgba(0, 0, 0, 0.0196802))
+      drop-shadow(44.4398px 42.5489px 17.7759px rgba(0, 0, 0, 0.01));
+  }
+
+
+  .companyname{
+    color: var(--Gray-900, #101828);
+
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 135%;
+  }
+  .tagline{
+    color: var(--Gray-600, #475467);
+/* Body Large/Semi Bold */
+font-family: Public Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; 
+max-width: 443px;
+  }
+
+  .tagscard{
+    display: flex;
+    padding: 4px 6px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 30px;
+border: 1px solid #EFF0F1;
+background: var(--Primary-25, #fea3b4);
+  }
+  .selectedcard{
+    color: var(--gray-500-p, var(--Gray-500, #667085));
+    font-family: Public Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }

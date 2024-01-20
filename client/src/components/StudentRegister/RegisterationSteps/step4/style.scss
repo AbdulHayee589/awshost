@@ -1,0 +1,118 @@
+#Step4Kxi39 {
+  width: 100%;
+
+  .stepWrapper {
+    text-align: left;
+  }
+
+  .section_title {
+    h3 {
+      color: #101828; //mostlyused
+    }
+  }
+  .card_wrapper {
+    border: none;
+    padding: 5px 10px;
+  }
+  .LogoSlides {
+    margin: 20px auto;
+  }
+  .Next_arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -50px;
+    border-radius: 100%;
+    padding: 2px 4px;
+    background-color: #fff;
+    color: #101828; //mostlyused
+    cursor: pointer;
+    box-shadow: 3px 10px 13px -7px rgba(188, 188, 188, 0.75);
+  }
+  .Prev_arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -50px;
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 2px 4px;
+    background-color: #fff;
+    color: #101828; //mostlyused
+    box-shadow: 3px 10px 13px -7px rgba(188, 188, 188, 0.75);
+  }
+  .card {
+    // width: 130px;
+    box-shadow: 0px 10px 13px -7px rgba(188, 188, 188, 0.75);
+    padding: 40px 20px;
+    &:hover {
+      // background: var(--primary-50, #FFF1F3);
+      box-shadow: 0px 2.191px 1.753px 0px rgba(108, 73, 172, 0.02),
+        0px 5.265px 4.212px 0px rgba(108, 73, 172, 0.03),
+        0px 9.913px 7.93px 0px rgba(108, 73, 172, 0.04),
+        0px 17.683px 14.146px 0px rgba(108, 73, 172, 0.04),
+        0px 33.074px 26.459px 0px rgba(108, 73, 172, 0.05),
+        0px 79.167px 63.333px 0px rgba(108, 73, 172, 0.07);
+    }
+    .Logo_img {
+      height: 52px;
+      // width: 125px;
+      // width: 100%;
+      margin: auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .Next_arrow,
+    .Prev_arrow {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .card {
+      min-height: 180px;
+      .Logo_img {
+        height: 50px;
+        // width: 80%;
+      }
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .card {
+      min-height: 220px;
+      padding: 20px 20px;
+      .Logo_img {
+        height: 60px;
+        // width: 60%;
+      }
+    }
+  }
+}
+
+.card_wrapper {
+  border: 1px solid transparent; /* Default border */
+  transition: border-color 0.3s ease; /* Transition for smooth effect */
+
+  &.selected {
+    border-color: red; /* Red border for selected cards */
+
+    .card {
+      border: 1px solid red; /* Add red border to the selected card */
+      background-color: rgba(255, 182, 193, 1); /* Light red background color */
+
+      img {
+        filter: brightness(
+          80%
+        ); /* Adjust brightness for a light red color effect on the image */
+      }
+    }
+  }
+
+  .card {
+    /* Your existing styles for the card */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
